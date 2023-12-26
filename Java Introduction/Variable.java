@@ -42,25 +42,27 @@ public class Variable {
 
     // 3. Floating-point Literals
     /**
- * Main
- */
-public class Main{
-    public static void main(String[] args){
-        double myDouble = 3.4;
-        float myFloat = 3.4F;
-        // 3.445*10^2
-        double myDoubleScientific = 3.445e2;
+     * Main
+     */
+    public class Main {
+        public static void main(String[] args) {
+            double myDouble = 3.4;
+            float myFloat = 3.4F;
+            // 3.445*10^2
+            double myDoubleScientific = 3.445e2;
 
-        System.out.println(myDouble);
-        System.out.println(myFloat);
-        System.out.println(myDoubleScientific);
+            System.out.println(myDouble);
+            System.out.println(myFloat);
+            System.out.println(myDoubleScientific);
 
+        }
     }
-}
 
-// 4. Character Literals
-char letter = 'a';
+    // 4. Character Literals
+    char letter = 'a';
 
-// 5. String literals
+    // 5. String literals
+    String str1 = "Java Programming";
+    String str2 = "Programiz";
 
 }
