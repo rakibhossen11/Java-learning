@@ -16,3 +16,4 @@ public class InputScanner {
 
     }
 }
+// You can get value in java use Scanner class Scanner class is a java build in class 
